@@ -1,0 +1,12 @@
+{
+    "name": "SliderFix",
+    "description": "Fix slider in menu.",
+    "author": "kash",
+    "contact": "http://steamcommunity.com/id/_kash/",
+    "version": "v1.0",
+    "priority": "50",
+    "hooks":
+    [
+        {"hook_id": "core/lib/managers/menu/items/coremenuitemslider", "script_path": "load.lua"}
+    ]
+}
