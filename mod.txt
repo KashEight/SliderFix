@@ -6,7 +6,8 @@
     "version": "v2.0",
     "priority": "50",
     "blt_version": 2,
-    "color": "0 255 0"
+    "color": "0 255 0",
+    "undisablable" : true, 
     "hooks":
     [
         {"hook_id": "core/lib/managers/menu/items/coremenuitemslider", "script_path": "load.lua"}
