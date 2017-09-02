@@ -2,6 +2,7 @@ if not Steam then
     return
 end
 
+--[[
 for i, keys in ipairs(file.GetDirectories("mods/")) do
     if keys:lower() ~= "base" or "downloads" or "logs" or "saves" or "sliderfix" then
         break
@@ -11,6 +12,7 @@ for i, keys in ipairs(file.GetDirectories("mods/")) do
         return
     end
 end
+]]
 
 function doScript(script)
     local baseScript = script:lower()
